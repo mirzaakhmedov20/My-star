@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 200px 500px 200px 500px;
+  background: rgb(33, 33, 50);
+  display: flex;
+}
+.box {
+  width: 410px;
+  height: 416px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+}
+.card {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border: 2px solid #262e38;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 32px;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: white;
+  margin-top: 15px;
+  margin-left: 32.39px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.text {
+  width: 344.126px;
+  margin-top: 15px;
+  margin-left: 32.39px;
+  margin-right: 33.49;
+  color: #969fad;
+  font-family: Overpass;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  padding-bottom: 40px;
+}
+.item {
+  width: 51px;
+  height: 51px;
+  flex-shrink: 0;
+  fill: var(--Dark-Blue, #262e38);
+  border: 2px solid #262e38;
+  color: var(--Medium-Gray, #7c8798);
+  text-align: center;
+
+  font-family: Overpass;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  border-radius: 70%;
+  padding-top: 10px;
+}
+
+.item_5 {
+  width: 51px;
+  height: 51px;
+  text-align: center;
+  font-family: Overpass;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 70%;
+  background-color: #fc7614;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  padding-top: 10px;
+}
+
+.btn {
+  width: 345.138px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 22.5px;
+  background: #fc7614;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 32.39px;
+  margin-right: 39.47px;
+  margin-bottom: 32px;
+}
+.btn:hover {
+  background-color: rgb(192, 143, 18);
+  cursor: pointer;
+}
+.btn:active {
+  background: #411c02;
+}
